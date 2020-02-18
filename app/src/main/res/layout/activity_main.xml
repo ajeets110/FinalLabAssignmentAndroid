@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Contact"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter Details"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:layout_marginTop="70dp"/>
+
+
+    <EditText
+        android:id="@+id/txt_Fname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter First Name"
+        android:textSize="15dp"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="10dp"/>
+
+    <EditText
+        android:id="@+id/txt_Lname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Last Name"
+        android:textSize="15dp"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="10dp"/>
+
+    <EditText
+        android:id="@+id/txt_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Phone Number"
+        android:textSize="15dp"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="10dp"/>
+
+    <EditText
+        android:id="@+id/txt_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Address"
+        android:textSize="15dp"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="10dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="Save"
+        />
+
+
+
+</LinearLayout>
